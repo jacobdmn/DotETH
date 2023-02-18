@@ -25,8 +25,7 @@ const config: HardhatUserConfig = {
       goerli: 0,
     },
     feeCollector: {
-      default: 0, // here this will by default take the second account as feeCollector (so in the test this will be a different account than the deployer)
-      goerli: 0,
+      default: 0,
     },
   },
 }
